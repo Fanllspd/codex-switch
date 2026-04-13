@@ -11,4 +11,5 @@ test:
 
 install: build
 	mkdir -p $(HOME)/.local/bin
+	rm -f $(HOME)/.local/bin/codex-switch
 	cp $(BIN) $(HOME)/.local/bin/codex-switch

@@ -34,3 +34,7 @@ go.work.sum
 
 tempCodeRunnerFile.*
 .DS_Store
+
+test/
+
+node_modules/
